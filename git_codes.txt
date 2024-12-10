@@ -1,0 +1,3 @@
+git status #checks the repo status
+git init #initializes the current dir 
+ 
