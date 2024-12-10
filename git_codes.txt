@@ -1,3 +1,8 @@
 git status #checks the repo status
 git init #initializes the current dir 
- 
+git branch -m main #changes the main branch name to main
+git add . #adds the files in the cd to staging area
+git config --global user.email xyz@email.com user.name xyz #a repository needs a user configuration to commit 
+git commit "comment" #commits the filse in the repo to main branch with comment
+git log #shows the logs of the repo with user names commits and comments
+
