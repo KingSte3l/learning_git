@@ -5,4 +5,5 @@ git add . #adds the files in the cd to staging area
 git config --global user.email xyz@email.com user.name xyz #a repository needs a user configuration to commit 
 git commit "comment" #commits the filse in the repo to main branch with comment
 git log #shows the logs of the repo with user names commits and comments
+git push -u origin main #pushes the files to origin-main
 
