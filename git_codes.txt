@@ -1,6 +1,7 @@
 git status #checks the repo status
 git init #initializes the current dir 
 git branch -m main #changes the main branch name to main
+git remote add origin ssh-url # a git url of the origin to connect
 git add . #adds the files in the cd to staging area
 git config --global user.email xyz@email.com user.name xyz #a repository needs a user configuration to commit 
 git commit "comment" #commits the filse in the repo to main branch with comment
@@ -11,4 +12,8 @@ git diff filename #used for checking the difference bw present and previous comm
 git diff --staged filename #used to check the difference bw versions in staged file
 git reset filename #to unstage files that are staged
 git checkout filename #to reset file to previous version, works only if not commited or staged.
+git add (. -A -u) #three commands used for staging depending on the scenario
+git branch # to check the number of braches
+git branch branchname #creates a branch of the name
+git checkout branchname #changes current branch to branchname 
 
