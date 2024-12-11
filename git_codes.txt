@@ -15,5 +15,9 @@ git checkout filename #to reset file to previous version, works only if not comm
 git add (. -A -u) #three commands used for staging depending on the scenario
 git branch # to check the number of braches
 git branch branchname #creates a branch of the name
-git checkout branchname #changes current branch to branchname 
+git checkout branchname #changes current branch to branchname
+git merge branchname #merges the branch name with current branch 
+git branch -d brancname #delets the local branch with branchname
+git push origin --delete branchname #delets the branch with branchname form origin
+
 
