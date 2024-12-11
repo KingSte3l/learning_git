@@ -7,4 +7,8 @@ git commit "comment" #commits the filse in the repo to main branch with comment
 git log #shows the logs of the repo with user names commits and comments
 git push -u origin main #pushes the files to origin-main
 git pull origin main #pulls the files from github (including changes done on github)
+git diff filename #used for checking the difference bw present and previous commi
+git diff --staged filename #used to check the difference bw versions in staged file
+git reset filename #to unstage files that are staged
+git checkout filename #to reset file to previous version, works only if not commited or staged.
 
