@@ -6,4 +6,5 @@ git config --global user.email xyz@email.com user.name xyz #a repository needs a
 git commit "comment" #commits the filse in the repo to main branch with comment
 git log #shows the logs of the repo with user names commits and comments
 git push -u origin main #pushes the files to origin-main
+git pull origin main #pulls the files from github (including changes done on github)
 
