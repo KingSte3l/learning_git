@@ -5,7 +5,7 @@
 4. git remote add origin ssh-url : a git url of the origin to connect
 5. git add . :adds the files in the cd to staging area
 6. git config --global user.email xyz@email.com user.name xyz :a repository needs a user configuration to commit 
-7. git commit "comment" :commits the filse in the repo to main branch with comment
+7. git commit -m "comment" :commits the filse in the repo to main branch with comment
 8. git log :shows the logs of the repo with user names commits and comments
 
 #push pull and difference
